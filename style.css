@@ -77,10 +77,16 @@ body {
     align-items: center;
     gap: 0.75rem;
 }
+
 .preview-card_author img {
     height: 2rem;
     width: 2rem;
 }
+
 .preview-card_author span {
     font-weight: 800;
+}
+
+.preview-card_description h2:hover {
+    color: hsl(47, 88%, 63%);
 }
