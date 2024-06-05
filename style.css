@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", "sans-serif";
+}
+
+.preview-card {
+    max-width: 24rem;
+    min-height: 32.625rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border: 0.0625rem solid hsl(0, 0%, 7%);
+    border-radius: 1.25rem;
+    box-shadow: 0.5rem 0.5rem hsl(0, 0%, 7%);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.preview-card_image {
+    max-width: 21rem;
+}
+
+.preview-card_image img {
+    max-width: 100%;
+    border-radius: 0.625rem;
+}
+
+.preview-card_description {
+    margin: 1.5rem 0;
+
+}
+
+.preview-card_description a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    display: block;
+    width: 5.125rem;
+    height: 1.8125rem;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.8125;
+    border-radius: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.preview-card_description span {
+    font-weight: 500;
+}
+
+.preview-card_description h2 {
+    font-weight: 800;
+    line-height: 2;
+
+}
+
+.preview-card_description p {
+    line-height: 1.5;
+    color: hsl(0, 0%, 50%);
+}
+
+.preview-card_description h2, p {
+    margin-top: 0.75rem;
+}
+
+.preview-card_author {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.preview-card_author img {
+    height: 2rem;
+    width: 2rem;
+}
+.preview-card_author span {
+    font-weight: 800;
+}
